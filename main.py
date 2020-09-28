@@ -1,4 +1,4 @@
-day = int(input("Ingrese el día porfavor: "))
+day = int(input("Ingrese el dia: "))
 month = int(input("Ingrese el mes: "))
 #Capricornio
 if month == 12:
@@ -43,18 +43,18 @@ elif month == 5:
 #Geminis
 if month == 5:
     if day >= 22 and day<=31:
-        print("Géminis")
+        print("Geminis")
 elif month == 6:
     if day >= 1 and day<=21:
-        print("Géminis")
+        print("Geminis")
 
 #Cáncer
 if month == 6:
     if day >= 22 and day<=30:
-        print("Cáncer")
+        print("Cancer")
 elif month == 7:
     if day >= 1 and day<=23:
-        print("Cáncer")
+        print("Cancer")
 
 #Leo
 if month == 7:
