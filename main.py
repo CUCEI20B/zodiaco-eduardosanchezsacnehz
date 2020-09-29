@@ -1,5 +1,5 @@
-day = int(input("Ingrese el dia: "))
-month = int(input("Ingrese el mes: "))
+day = int(input("Ingrese el dia "))
+month = int(input("Ingrese el mes "))
 
 if month == 12:
     if day >= 22 and day<=31:
